@@ -1,0 +1,13 @@
+<!-- directives -->
+<% @Page Language="C#" %>
+
+<!-- code section -->
+<script runat="server">
+
+   private void convertoupper(object sender, EventArgs e)
+   {
+      string str = mytext.Value;
+      changed_text.InnerHtml = str.ToUpper();
+   }
+</script>
+
