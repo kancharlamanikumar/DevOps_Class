@@ -34,8 +34,9 @@ void add_frac(int n1, int den1, int n2, int den2, int &n3, int &den3) {
    den3 = gcd(den1,den2);
     // LCM * GCD = a * b
     
-    
+   
     this is mani's branch which is newlt added
+    this is main breanch file
    den3 = (den1*den2) / den3;
    // Changing the inputs to have same denominator
    // Numerator of the final fraction obtained
