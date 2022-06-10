@@ -13,6 +13,6 @@ int main() {
 
   // prints sum 
   cout << first_number << " + " <<  second_number << " = " << sum;     
-}
 
-this is newly added line
+  return 0;
+}
